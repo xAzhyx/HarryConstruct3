@@ -1,0 +1,89 @@
+{
+	"name": "SprWallet",
+	"plugin-id": "Sprite",
+	"sid": 397393678072068,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 97,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\wallet.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8759566,
+						"collisionPoly": {
+							"points": [
+								0.11340206185567007,
+								0.16500000000000004,
+								0.1443298969072164,
+								0.11,
+								0.8865979381443297,
+								0.10999999999999996,
+								0.9123711340206189,
+								0.17999999999999972,
+								1,
+								0.23999999999999946,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0.25999999999999984
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 97,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\walletOut.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7305357,
+						"collisionPoly": {
+							"points": [
+								0.11340206185567007,
+								0.16500000000000004,
+								0.11855670103092772,
+								0.03999999999999997,
+								0.881443298969072,
+								0.039999999999999945,
+								0.9123711340206189,
+								0.17999999999999972,
+								1,
+								0.23999999999999946,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0.25999999999999984
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 371502299991637,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

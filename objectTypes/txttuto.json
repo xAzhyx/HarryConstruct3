@@ -1,0 +1,15 @@
+{
+	"name": "TxtTuto",
+	"plugin-id": "Text",
+	"sid": 541269870085469,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "FadeIn",
+			"sid": 219244161694431
+		}
+	],
+	"effectTypes": []
+}

@@ -1,0 +1,20 @@
+{
+	"name": "9pText",
+	"plugin-id": "NinePatch",
+	"sid": 300575597688557,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 524,
+		"height": 384,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\finalBg.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9556641,
+		"useCollisionPoly": true
+	}
+}

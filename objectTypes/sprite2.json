@@ -1,0 +1,73 @@
+{
+	"name": "Sprite2",
+	"plugin-id": "Sprite",
+	"sid": 900863770398139,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 97,
+						"height": 46,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\closedBurn.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9250635,
+						"collisionPoly": {
+							"points": [
+								0.10824742268041238,
+								0.021739130434782664,
+								0.9999999999999999,
+								0.03260869565217391,
+								0.9896907216494846,
+								0.9891304347826086,
+								0.11855670103092786,
+								0.9782608695652173
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 97,
+						"height": 46,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\burn.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6995775,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9999999999999999,
+								0.03260869565217391,
+								0.9896907216494846,
+								0.9891304347826086,
+								0,
+								0.9891304347826086
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 299120725780327,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

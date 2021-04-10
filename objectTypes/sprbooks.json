@@ -1,0 +1,97 @@
+{
+	"name": "SprBooks",
+	"plugin-id": "Sprite",
+	"sid": 390545227067788,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 97,
+						"height": 83,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\books.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7477755,
+						"collisionPoly": {
+							"points": [
+								0.3757159221076745,
+								0.0174029451137885,
+								0.45704467353951883,
+								0.12985274431057567,
+								0.5693012600229098,
+								0.1311914323962516,
+								0.5710194730813295,
+								0.019410977242302313,
+								0.8591065292096223,
+								0.016398929049531424,
+								0.9819587628865978,
+								0.1661646586345384,
+								0.9845360824742266,
+								0.9959839357429724,
+								0.27376861397479946,
+								0.9912985274431059,
+								0.17812142038946158,
+								0.8574297188755017,
+								0.18327605956471932,
+								0.020749665327978544
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 97,
+						"height": 81,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\booksTaken.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1433339,
+						"collisionPoly": {
+							"points": [
+								0.3825887743413515,
+								0.00411522633744857,
+								0.46048109965635736,
+								0.12345679012345673,
+								0.5693012600229098,
+								0.12345679012345671,
+								0.5704467353951903,
+								0.009602194787379633,
+								0.7179266895761749,
+								0.0096021947873797,
+								0.8207331042382593,
+								0.13854595336076792,
+								0.821305841924399,
+								1,
+								0.2646048109965633,
+								1,
+								0.17812142038946163,
+								0.8758573388203014,
+								0.17983963344788093,
+								0.00754458161865563
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 498114838920528,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"name": "SprTable",
+	"plugin-id": "Sprite",
+	"sid": 428489372664694,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 503,
+						"height": 227,
+						"originX": 0.5009940357852882,
+						"originY": 0.5022026431718062,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\table.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5466043,
+						"collisionPoly": {
+							"points": [
+								0.0019880715705765406,
+								0.004405286343612335,
+								0.5009940357852882,
+								0.004405286343612335,
+								0.8618290258449304,
+								0.004405286343612335,
+								0.9990059642147118,
+								0.30616740088105726,
+								1,
+								0.41629955947136593,
+								0.5009940357852882,
+								0.4185022026431718,
+								0.0974155069582505,
+								0.41629955947136565,
+								0.0019880715705765406,
+								0.1343612334801758
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 872297346903426,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

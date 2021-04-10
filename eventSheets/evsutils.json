@@ -1,0 +1,24 @@
+{
+	"name": "evsUtils",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 152960424496451
+				}
+			],
+			"actions": [
+				{
+					"id": "init",
+					"objectClass": "ProUI",
+					"sid": 205213135630463
+				}
+			],
+			"sid": 834535759464311
+		}
+	],
+	"sid": 517092237508041
+}

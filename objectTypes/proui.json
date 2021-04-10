@@ -1,0 +1,10 @@
+{
+	"name": "ProUI",
+	"plugin-id": "aekiro_proui",
+	"sid": 921765399034746,
+	"singleglobal-inst": {
+		"type": "ProUI",
+		"properties": {},
+		"uid": 14
+	}
+}

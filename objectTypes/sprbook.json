@@ -1,0 +1,972 @@
+{
+	"name": "SprBook",
+	"plugin-id": "Sprite",
+	"sid": 432531710307511,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "FadeOut",
+			"sid": 115132018979211
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3880549,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 919461,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6836283,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4287474,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9654717,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7216187,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro6.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5099788,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro7.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9415552,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro8.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3743137,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro9.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4528175,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro10.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1526445,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro11.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5979164,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro12.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5397655,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro13.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9560452,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro14.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3544580,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro15.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5423971,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Hint",
+								"x": 0.9609375,
+								"y": 0.9559118236472945
+							},
+							{
+								"name": "PagePassed",
+								"x": 0.5390625,
+								"y": 0.501002004008016
+							},
+							{
+								"name": "Page",
+								"x": 0.546875,
+								"y": 0.503006012024048
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 790957598703286,
+				"name": "OpenBook",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			},
+			{
+				"frames": [
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro15.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5884411,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Hint",
+								"x": 0.9609375,
+								"y": 0.9559118236472945
+							},
+							{
+								"name": "PagePassed",
+								"x": 0.5390625,
+								"y": 0.501002004008016
+							},
+							{
+								"name": "Page",
+								"x": 0.546875,
+								"y": 0.503006012024048
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro14.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2264569,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro13.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 870409,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro12.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4942178,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro11.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2037785,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro10.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9680143,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro9.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7378916,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro8.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7637960,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro7.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7159338,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro6.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9668161,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3131345,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8038881,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5624458,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5856683,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5284752,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 640,
+						"height": 499,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\BookIntro\\bookIntro0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4384685,
+						"collisionPoly": {
+							"points": [
+								0.503125,
+								0.6452905811623246,
+								0.975,
+								0.03006012024048096,
+								0.9984375,
+								0.5,
+								0.9984375,
+								0.9979959919839679,
+								0.503125,
+								0.3527054108216433,
+								0.503125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 892041572550453,
+				"name": "CloseBook",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

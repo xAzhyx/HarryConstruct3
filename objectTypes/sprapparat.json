@@ -1,0 +1,157 @@
+{
+	"name": "SprApparat",
+	"plugin-id": "Sprite",
+	"sid": 736469360795389,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 160,
+						"height": 150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\apparatBrk.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7542430,
+						"collisionPoly": {
+							"points": [
+								0.040625,
+								0.016666666666666663,
+								0.503125,
+								0.013333333333333332,
+								0.8031249999999993,
+								0.016666666666666684,
+								0.9593749999999996,
+								0.14333333333333334,
+								0.9624999999999999,
+								0.9766666666666666,
+								0.19375000000000026,
+								0.9733333333333334,
+								0.028124999999999997,
+								0.8600000000000002,
+								0.0375,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 160,
+						"height": 150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\apparatFix.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9841485,
+						"collisionPoly": {
+							"points": [
+								0.040625,
+								0.016666666666666663,
+								0.503125,
+								0.013333333333333332,
+								0.8031249999999993,
+								0.016666666666666684,
+								0.9593749999999996,
+								0.14333333333333334,
+								0.9624999999999999,
+								0.9766666666666666,
+								0.19375000000000026,
+								0.9733333333333334,
+								0.028124999999999997,
+								0.8600000000000002,
+								0.0375,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 252,
+						"height": 153,
+						"originX": 0.31746031746031744,
+						"originY": 0.49019607843137253,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\apparatBrkOp.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2421258,
+						"collisionPoly": {
+							"points": [
+								0.5168154761904759,
+								0.016666666666666666,
+								0.6519345238095238,
+								0.2126797385620913,
+								0.9797123015873012,
+								0.2192810457516337,
+								0.9821428571428572,
+								0.7675163398692803,
+								0.6152777777777785,
+								0.7707843137254908,
+								0.6148313492063493,
+								0.9733660130718954,
+								0.12232142857142891,
+								0.9667973856209151,
+								0.02018849206349206,
+								0.8567320261437911,
+								0.021825396825396824,
+								0.019607843137255006
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 252,
+						"height": 153,
+						"originX": 0.31746031746031744,
+						"originY": 0.49019607843137253,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\apparatFixOp.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6507829,
+						"collisionPoly": {
+							"points": [
+								0.5168154761904759,
+								0.016666666666666666,
+								0.6519345238095238,
+								0.2126797385620913,
+								0.9797123015873012,
+								0.2192810457516337,
+								0.9821428571428572,
+								0.7675163398692803,
+								0.6152777777777785,
+								0.7707843137254908,
+								0.6148313492063493,
+								0.9733660130718954,
+								0.12232142857142891,
+								0.9667973856209151,
+								0.02018849206349206,
+								0.8567320261437911,
+								0.021825396825396824,
+								0.019607843137255006
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 984762968377911,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"name": "Hint",
+	"plugin-id": "Sprite",
+	"sid": 487331480873906,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "SineSize",
+			"sid": 673982112639314
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "SineMove",
+			"sid": 533552976213985
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "FadeIn",
+			"sid": 178457442648718
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "FadeOut",
+			"sid": 929021167272560
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 54,
+						"height": 85,
+						"originX": 0.5,
+						"originY": 0,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry\\arrow.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 774670,
+						"collisionPoly": {
+							"points": [
+								0.2962962962962963,
+								0.18823529411764706,
+								0.5,
+								0,
+								0.6851851851851852,
+								0.18823529411764706,
+								0.9814814814814815,
+								0.5,
+								0.7407407407407407,
+								0.8352941176470589,
+								0.5,
+								0.9882352941176471,
+								0.24074074074074073,
+								0.8352941176470589,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 273994930903591,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

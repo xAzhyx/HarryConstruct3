@@ -1,0 +1,837 @@
+{
+	"name": "evsTuto",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Tutorial",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "variable",
+					"name": "Tutorial_Step",
+					"type": "number",
+					"initialValue": "0",
+					"comment": "",
+					"isStatic": true,
+					"isConstant": false,
+					"sid": 440168920545543
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 743318837970459
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "Init_Tutorial",
+							"sid": 311660998959911
+						}
+					],
+					"sid": 998428397870297
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-completed",
+							"objectClass": "AJAX",
+							"sid": 176743483165927,
+							"parameters": {
+								"tag": "\"tutorial\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "parse",
+							"objectClass": "JSONTutorial",
+							"sid": 217238200532648,
+							"parameters": {
+								"data": "AJAX.LastData"
+							}
+						},
+						{
+							"id": "set-animation-speed",
+							"objectClass": "SprBook",
+							"sid": 793143679942686,
+							"parameters": {
+								"speed": "15"
+							}
+						}
+					],
+					"sid": 855488306522049
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Tutorial_Functions",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Init + Finish"
+						},
+						{
+							"functionName": "Init_Tutorial",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "request-project-file",
+									"objectClass": "AJAX",
+									"sid": 433394784279268,
+									"parameters": {
+										"tag": "\"tutorial\"",
+										"file": "texts.json"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "SprPage",
+									"sid": 820316900075626,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-opacity",
+									"objectClass": "SprTuto",
+									"sid": 388904154827939,
+									"parameters": {
+										"opacity": "0"
+									}
+								},
+								{
+									"id": "set-opacity",
+									"objectClass": "SprCircleHint",
+									"sid": 506177917222049,
+									"parameters": {
+										"opacity": "0"
+									}
+								},
+								{
+									"id": "set-opacity",
+									"objectClass": "Hint",
+									"sid": 870863702544117,
+									"parameters": {
+										"opacity": "0"
+									}
+								}
+							],
+							"sid": 617966025143780
+						},
+						{
+							"functionName": "Finish_Tutorial",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [],
+							"sid": 566104129704659,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "pick-all",
+											"objectClass": "System",
+											"sid": 927247445514301,
+											"parameters": {
+												"object": "SprPagePassed"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "tween-one-property",
+											"objectClass": "SprPagePassed",
+											"sid": 629512760068977,
+											"behaviorType": "Tween",
+											"parameters": {
+												"tags": "\"\"",
+												"property": "offsetOpacity",
+												"end-value": "0",
+												"time": "0.5",
+												"ease": "default",
+												"destroy-on-complete": "no",
+												"loop": "no",
+												"ping-pong": "no"
+											}
+										}
+									],
+									"sid": 374324917208648
+								},
+								{
+									"eventType": "block",
+									"conditions": [],
+									"actions": [
+										{
+											"id": "tween-one-property",
+											"objectClass": "SprPage",
+											"sid": 510299641497489,
+											"behaviorType": "Tween",
+											"parameters": {
+												"tags": "\"\"",
+												"property": "offsetOpacity",
+												"end-value": "0",
+												"time": "0.5",
+												"ease": "default",
+												"destroy-on-complete": "no",
+												"loop": "no",
+												"ping-pong": "no"
+											}
+										},
+										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 902447994912410,
+											"parameters": {
+												"seconds": "0.5"
+											}
+										},
+										{
+											"id": "set-animation",
+											"objectClass": "SprBook",
+											"sid": 448222260573959,
+											"parameters": {
+												"animation": "\"CloseBook\"",
+												"from": "beginning"
+											}
+										},
+										{
+											"id": "set-animation-speed",
+											"objectClass": "SprBook",
+											"sid": 272192920405789,
+											"parameters": {
+												"speed": "15"
+											}
+										}
+									],
+									"sid": 642487297593043
+								}
+							]
+						},
+						{
+							"eventType": "comment",
+							"text": "Set Text + Image"
+						},
+						{
+							"functionName": "Set_Tutorial_Image",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [],
+							"sid": 238862228734447,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 139657685586468,
+											"parameters": {
+												"first-value": "Tutorial_Step",
+												"comparison": 2,
+												"second-value": "4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation",
+											"objectClass": "SprTuto",
+											"sid": 662682882761290,
+											"parameters": {
+												"animation": "\"tuto\"&Tutorial_Step",
+												"from": "beginning"
+											}
+										},
+										{
+											"id": "restart-fade",
+											"objectClass": "SprTuto",
+											"sid": 753460945666072,
+											"behaviorType": "FadeIn"
+										}
+									],
+									"sid": 994942039973139
+								}
+							]
+						},
+						{
+							"functionName": "Set_Tutorial_Text",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [
+								{
+									"name": "text",
+									"type": "string",
+									"initialValue": "",
+									"comment": "",
+									"sid": 834153723850131
+								}
+							],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "typewriter-text",
+									"objectClass": "TxtTuto",
+									"sid": 573267453125524,
+									"parameters": {
+										"text": "text",
+										"duration": "2"
+									}
+								},
+								{
+									"id": "add-to-eventvar",
+									"objectClass": "System",
+									"sid": 244727996964370,
+									"parameters": {
+										"variable": "Tutorial_Step",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 344166491077047
+						}
+					],
+					"sid": 912623030243900
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Hint",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"functionName": "Active_Hint",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "restart-fade",
+									"objectClass": "Hint",
+									"sid": 967790243949309,
+									"behaviorType": "FadeIn"
+								},
+								{
+									"id": "restart-fade",
+									"objectClass": "SprCircleHint",
+									"sid": 728127869224937,
+									"behaviorType": "FadeIn"
+								},
+								{
+									"id": "set-active",
+									"objectClass": "SprCircleHint",
+									"sid": 837736460533191,
+									"behaviorType": "SineSize",
+									"parameters": {
+										"state": "active"
+									}
+								},
+								{
+									"id": "set-active",
+									"objectClass": "SprCircleHint",
+									"sid": 989518521201300,
+									"behaviorType": "SineMove",
+									"parameters": {
+										"state": "active"
+									}
+								},
+								{
+									"id": "set-active",
+									"objectClass": "Hint",
+									"sid": 454656212060052,
+									"behaviorType": "SineSize",
+									"parameters": {
+										"state": "active"
+									}
+								},
+								{
+									"id": "set-active",
+									"objectClass": "Hint",
+									"sid": 429788474363483,
+									"behaviorType": "SineMove",
+									"parameters": {
+										"state": "active"
+									}
+								}
+							],
+							"sid": 255285931916403
+						},
+						{
+							"functionName": "Desactive_Hint",
+							"functionDescription": "",
+							"functionCategory": "",
+							"functionReturnType": "none",
+							"functionIsAsync": false,
+							"functionParameters": [],
+							"eventType": "function-block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "restart-fade",
+									"objectClass": "Hint",
+									"sid": 375866904320130,
+									"behaviorType": "FadeOut"
+								},
+								{
+									"id": "restart-fade",
+									"objectClass": "SprCircleHint",
+									"sid": 471936583397348,
+									"behaviorType": "FadeOut"
+								},
+								{
+									"id": "set-active",
+									"objectClass": "SprCircleHint",
+									"sid": 176265500455541,
+									"behaviorType": "SineSize",
+									"parameters": {
+										"state": "inactive"
+									}
+								},
+								{
+									"id": "set-active",
+									"objectClass": "SprCircleHint",
+									"sid": 592415838352679,
+									"behaviorType": "SineMove",
+									"parameters": {
+										"state": "inactive"
+									}
+								},
+								{
+									"id": "set-active",
+									"objectClass": "Hint",
+									"sid": 232549246042031,
+									"behaviorType": "SineSize",
+									"parameters": {
+										"state": "inactive"
+									}
+								},
+								{
+									"id": "set-active",
+									"objectClass": "Hint",
+									"sid": 159139897520785,
+									"behaviorType": "SineMove",
+									"parameters": {
+										"state": "inactive"
+									}
+								}
+							],
+							"sid": 478238533913967
+						}
+					],
+					"sid": 201137696660349
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Handler_Tutorial",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Start tutorial when book finish to open"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-animation-finished",
+									"objectClass": "SprBook",
+									"sid": 883583312755385,
+									"parameters": {
+										"animation": "\"OpenBook\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Set_Tutorial_Image",
+									"sid": 206141033321510
+								},
+								{
+									"callFunction": "Set_Tutorial_Text",
+									"sid": 577157538387410,
+									"parameters": [
+										"JSONTutorial.Get(\"tuto_\"&Tutorial_Step)"
+									]
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "SprPage",
+									"sid": 120800825752506,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-position-to-another-object",
+									"objectClass": "SprDrag",
+									"sid": 369163603421575,
+									"parameters": {
+										"object": "SprBook",
+										"image-point-optional": "1"
+									}
+								}
+							],
+							"sid": 988627113342228
+						},
+						{
+							"eventType": "comment",
+							"text": "Drag to pass page and handler tutorial"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-drop",
+									"objectClass": "SprDrag",
+									"sid": 449250017812514,
+									"behaviorType": "DragDrop"
+								}
+							],
+							"actions": [],
+							"sid": 226455279570341,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-x",
+											"objectClass": "SprDrag",
+											"sid": 672996684343725,
+											"parameters": {
+												"comparison": 3,
+												"x-co-ordinate": "SprBook.X + SprBook.Width / 3"
+											}
+										}
+									],
+									"actions": [
+										{
+											"callFunction": "Desactive_Hint",
+											"sid": 372512580510335
+										},
+										{
+											"id": "set-opacity",
+											"objectClass": "TxtTuto",
+											"sid": 580872401199831,
+											"parameters": {
+												"opacity": "0"
+											}
+										},
+										{
+											"id": "set-opacity",
+											"objectClass": "SprTuto",
+											"sid": 248880063203909,
+											"parameters": {
+												"opacity": "0"
+											}
+										},
+										{
+											"id": "set-enabled",
+											"objectClass": "SprDrag",
+											"sid": 763536179000945,
+											"behaviorType": "DragDrop",
+											"parameters": {
+												"state": "disabled"
+											}
+										}
+									],
+									"sid": 557894444510321,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-two-values",
+													"objectClass": "System",
+													"sid": 636493726381952,
+													"parameters": {
+														"first-value": "Tutorial_Step",
+														"comparison": 0,
+														"second-value": "5"
+													}
+												}
+											],
+											"actions": [
+												{
+													"callFunction": "Finish_Tutorial",
+													"sid": 774546942674678
+												}
+											],
+											"sid": 774513070233925
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "else",
+													"objectClass": "System",
+													"sid": 975140708424931
+												}
+											],
+											"actions": [
+												{
+													"id": "tween-one-property",
+													"objectClass": "SprPage",
+													"sid": 684229682832193,
+													"behaviorType": "Tween",
+													"parameters": {
+														"tags": "\"Hide_Page\"&Tutorial_Step",
+														"property": "offsetScaleX",
+														"end-value": "0.1",
+														"time": "0.8",
+														"ease": "default",
+														"destroy-on-complete": "no",
+														"loop": "no",
+														"ping-pong": "no"
+													}
+												}
+											],
+											"sid": 270249938792204
+										}
+									]
+								},
+								{
+									"eventType": "block",
+									"conditions": [],
+									"actions": [
+										{
+											"id": "set-position-to-another-object",
+											"objectClass": "SprDrag",
+											"sid": 141219061364278,
+											"parameters": {
+												"object": "SprBook",
+												"image-point-optional": "1"
+											}
+										}
+									],
+									"sid": 280139531873324
+								}
+							]
+						},
+						{
+							"eventType": "comment",
+							"text": "Pass page and go to the next step"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-tweens-finished",
+									"objectClass": "SprPage",
+									"sid": 834304712371940,
+									"behaviorType": "Tween",
+									"parameters": {
+										"tags": "\"Hide_Page\"&Tutorial_Step"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-scale",
+									"objectClass": "SprPage",
+									"sid": 151629836713255,
+									"parameters": {
+										"scale": "1"
+									}
+								},
+								{
+									"id": "set-position-to-another-object",
+									"objectClass": "SprPage",
+									"sid": 298916297854306,
+									"parameters": {
+										"object": "SprBook",
+										"image-point-optional": "\"Page\""
+									}
+								},
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 909550995983775,
+									"parameters": {
+										"object-to-create": "SprPagePassed",
+										"layer": "\"Book\"",
+										"x": "SprBook.ImagePointX(\"PagePassed\")",
+										"y": "SprBook.ImagePointY(\"PagePassed\")"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "SprPagePassed",
+									"sid": 459838879879831,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "tween-one-property",
+									"objectClass": "SprPagePassed",
+									"sid": 311483235885963,
+									"behaviorType": "Tween",
+									"parameters": {
+										"tags": "\"Show_Page\"&Tutorial_Step",
+										"property": "offsetScaleX",
+										"end-value": "100",
+										"time": "0.8",
+										"ease": "default",
+										"destroy-on-complete": "no",
+										"loop": "no",
+										"ping-pong": "no"
+									}
+								}
+							],
+							"sid": 153555901768448
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-tweens-finished",
+									"objectClass": "SprPagePassed",
+									"sid": 469231426901186,
+									"behaviorType": "Tween",
+									"parameters": {
+										"tags": "\"Show_Page\"&Tutorial_Step"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "restart-fade",
+									"objectClass": "TxtTuto",
+									"sid": 353456495269110,
+									"behaviorType": "FadeIn"
+								},
+								{
+									"callFunction": "Set_Tutorial_Image",
+									"sid": 659153975280105
+								},
+								{
+									"callFunction": "Set_Tutorial_Text",
+									"sid": 377314541936127,
+									"parameters": [
+										"JSONTutorial.Get(\"tuto_\"&Tutorial_Step)"
+									]
+								}
+							],
+							"sid": 998649305016068
+						},
+						{
+							"eventType": "comment",
+							"text": "Active Hint"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-typewriter-text-finished",
+									"objectClass": "TxtTuto",
+									"sid": 377745502924434
+								}
+							],
+							"actions": [
+								{
+									"id": "set-enabled",
+									"objectClass": "SprDrag",
+									"sid": 145731196297813,
+									"behaviorType": "DragDrop",
+									"parameters": {
+										"state": "enabled"
+									}
+								},
+								{
+									"callFunction": "Active_Hint",
+									"sid": 738927148617544
+								}
+							],
+							"sid": 749807355652996
+						},
+						{
+							"eventType": "comment",
+							"text": "Finish animations"
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-animation-finished",
+									"objectClass": "SprBook",
+									"sid": 480754684310242,
+									"parameters": {
+										"animation": "\"CloseBook\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "start-fade",
+									"objectClass": "SprBook",
+									"sid": 149142511329892,
+									"behaviorType": "FadeOut"
+								}
+							],
+							"sid": 530057386711830
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-fade-out-finished",
+									"objectClass": "SprBook",
+									"sid": 775845573941203,
+									"behaviorType": "FadeOut"
+								}
+							],
+							"actions": [
+								{
+									"id": "set-layer-visible",
+									"objectClass": "System",
+									"sid": 474311880473229,
+									"parameters": {
+										"layer": "\"Book\"",
+										"visibility": "invisible"
+									}
+								}
+							],
+							"sid": 448181259340136
+						}
+					],
+					"sid": 309896418139194
+				}
+			],
+			"sid": 400821184695251
+		}
+	],
+	"sid": 674815275514586
+}

@@ -1,0 +1,85 @@
+{
+	"name": "SprWindow",
+	"plugin-id": "Sprite",
+	"sid": 220403656330146,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 234,
+						"height": 245,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\window.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6214775,
+						"collisionPoly": {
+							"points": [
+								0.005698005698005696,
+								0.014965986394557823,
+								0.95014245014245,
+								0.009523809523809521,
+								1,
+								0.03877551020408161,
+								0.9914529914529915,
+								0.9918367346938776,
+								0.03133903133903133,
+								0.9945578231292518,
+								0,
+								0.9510204081632656
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 458,
+						"height": 245,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\windowOpen.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 184519,
+						"collisionPoly": {
+							"points": [
+								0.24125704475049448,
+								0.01360544217687075,
+								0.7205240174672493,
+								0.010884353741496598,
+								0.748926958533945,
+								0.03537414965986394,
+								0.9936363975665288,
+								0.04013605442176863,
+								0.9914529914529915,
+								0.9918367346938776,
+								0.007278020378457115,
+								0.9918367346938775,
+								0.004366812227074236,
+								0.039455782312925354,
+								0.2394468704512371,
+								0.03741496598639456
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 631593787778721,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

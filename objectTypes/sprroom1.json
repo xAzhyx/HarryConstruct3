@@ -1,0 +1,57 @@
+{
+	"name": "SprRoom1",
+	"plugin-id": "Sprite",
+	"sid": 400730013730335,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1200,
+						"height": 591,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\room.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9244206,
+						"collisionPoly": {
+							"points": [
+								0.0030181086519114686,
+								0.006122448979591836,
+								0.5,
+								0,
+								0.9949698189134809,
+								0.00816326530612245,
+								0.9989939637826962,
+								0.5,
+								0.9949698189134809,
+								0.9897959183673469,
+								0.5,
+								0.9979591836734694,
+								0.002012072434607646,
+								0.9938775510204082,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 816202556257559,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

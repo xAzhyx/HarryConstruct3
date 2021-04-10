@@ -1,0 +1,63 @@
+{
+	"name": "SprKey",
+	"plugin-id": "Sprite",
+	"sid": 544520388042573,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 112,
+						"height": 111,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\key.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 508996,
+						"collisionPoly": {
+							"points": [
+								0.3883928571428571,
+								0.10810810810810816,
+								0.5892857142857143,
+								0.049549549549549536,
+								0.84375,
+								0.10810810810810806,
+								0.8861607142857141,
+								0.2477477477477476,
+								0.901785714285714,
+								0.36936936936936915,
+								0.7767857142857139,
+								0.4729729729729728,
+								0.5982142857142854,
+								0.4594594594594594,
+								0.10714285714285725,
+								1,
+								0.053571428571428686,
+								0.8378378378378377,
+								0.39285714285714285,
+								0.40990990990990994,
+								0.3571428571428572,
+								0.31531531531531526
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 755496802793709,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

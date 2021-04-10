@@ -1,0 +1,15 @@
+{
+	"name": "TxtButton",
+	"plugin-id": "Text",
+	"sid": 641489634699957,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "aekiro_gameobject",
+			"name": "GameObject",
+			"sid": 406194993933391
+		}
+	],
+	"effectTypes": []
+}

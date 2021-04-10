@@ -1,0 +1,869 @@
+{
+	"name": "SprTuto",
+	"plugin-id": "Sprite",
+	"sid": 123393682120651,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "FadeIn",
+			"sid": 462979019729234
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "FadeOut",
+			"sid": 555478776024541
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 81,
+						"height": 203,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\harry.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2564451,
+						"collisionPoly": {
+							"points": [
+								0.25925925925925924,
+								0.10344827586206896,
+								0.5,
+								0.0049261083743842365,
+								0.654320987654321,
+								0.1330049261083744,
+								0.8024691358024691,
+								0.5,
+								0.7037037037037037,
+								0.8817733990147784,
+								0.5,
+								0.8768472906403941,
+								0.2962962962962963,
+								0.8768472906403941,
+								0.19753086419753085,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 823443065192816,
+				"name": "tuto0",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			},
+			{
+				"frames": [
+					{
+						"width": 122,
+						"height": 203,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\doorOpen.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2072916,
+						"collisionPoly": {
+							"points": [
+								0.2579505300353357,
+								0.1994535519125683,
+								0.5,
+								0.02185792349726776,
+								0.8445229681978799,
+								0.11748633879781421,
+								0.9964664310954063,
+								0.5,
+								0.9964664310954063,
+								0.9972677595628415,
+								0.5,
+								0.9590163934426229,
+								0.04946996466431095,
+								0.9590163934426229,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 766558871504607,
+				"name": "tuto1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			},
+			{
+				"frames": [
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4065856,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7457038,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3923867,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1549268,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7778772,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9255043,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto6.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 316479,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto7.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2403627,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto8.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9516017,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto9.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1853788,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto10.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2809815,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto11.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5222694,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto12.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 996411,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 228,
+						"height": 178,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\tuto\\tuto13.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1725336,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9956140350877193,
+								0,
+								0.9956140350877193,
+								0.5,
+								0.9956140350877193,
+								0.9943820224719101,
+								0.5,
+								0.9943820224719101,
+								0,
+								0.9943820224719101,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 595107829451925,
+				"name": "tuto2",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2509509,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3600973,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6399939,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9025050,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5853700,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6602561,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info6.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8082375,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info7.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6380347,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 200,
+						"height": 28,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets\\Information\\info8.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3477348,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9967213114754099,
+								0,
+								0.9967213114754099,
+								0.5,
+								0.9967213114754099,
+								0.9772727272727273,
+								0.5,
+								0.9772727272727273,
+								0,
+								0.9772727272727273,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 758003456238080,
+				"name": "tuto3",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

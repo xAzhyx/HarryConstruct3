@@ -1,0 +1,53 @@
+{
+	"name": "SprOsc",
+	"plugin-id": "Sprite",
+	"sid": 455881831392938,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 146,
+						"originX": 0.5,
+						"originY": 0.4863013698630137,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\osc.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5379867,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.8087916666666657,
+								0.003424657534246575,
+								1,
+								0.15168949771689505,
+								1,
+								1,
+								0.16108333333333363,
+								0.9985388127853881,
+								0,
+								0.8758904109589043
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 517022995394220,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

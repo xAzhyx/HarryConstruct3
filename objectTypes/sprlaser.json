@@ -1,0 +1,93 @@
+{
+	"name": "SprLaser",
+	"plugin-id": "Sprite",
+	"sid": 365109478456552,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 180,
+						"height": 694,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\laserRed.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 783396,
+						"collisionPoly": {
+							"points": [
+								0.6500000000000001,
+								0.11671469740633988,
+								0.8416666666666663,
+								0.004322766570605172,
+								0.9277777777777777,
+								0.009365994236311237,
+								0.9972222222222222,
+								0.7305475504322767,
+								0.8944444444444437,
+								0.7312680115273776,
+								0.7152777777777773,
+								0.6790345821325643,
+								0.7249999999999998,
+								1,
+								0.06388888888888884,
+								0.8371757925072051,
+								0.3611111111111111,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 180,
+						"height": 694,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\laserGreen.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9491003,
+						"collisionPoly": {
+							"points": [
+								0.6500000000000001,
+								0.11671469740633988,
+								0.8416666666666663,
+								0.004322766570605172,
+								0.9277777777777777,
+								0.009365994236311237,
+								0.9972222222222222,
+								0.7305475504322767,
+								0.8944444444444437,
+								0.7312680115273776,
+								0.7152777777777773,
+								0.6790345821325643,
+								0.6916666666666665,
+								1,
+								0.06388888888888884,
+								0.8371757925072051,
+								0.3611111111111111,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 405531923448440,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"name": "SprRoper",
+	"plugin-id": "Sprite",
+	"sid": 157985341100752,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 184,
+						"height": 275,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\closet.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3533209,
+						"collisionPoly": {
+							"points": [
+								0.005434782608695652,
+								0.0036363636363636364,
+								0.8885869565217394,
+								0,
+								1,
+								0.03818181818181818,
+								0.9945652173913043,
+								0.5,
+								0.9945652173913043,
+								0.9963636363636363,
+								0.10869565217391298,
+								1,
+								0,
+								0.949090909090909,
+								0.005434782608695652,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 316,
+						"height": 275,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\closetOp1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4109146,
+						"collisionPoly": {
+							"points": [
+								0.16366263070996154,
+								0,
+								0.6914556962025323,
+								0.0018181818181818182,
+								0.754746835443038,
+								0.045454545454545456,
+								1,
+								0.045454545454545435,
+								0.9945652173913043,
+								0.9963636363636363,
+								0,
+								1,
+								4.336808689942018e-19,
+								0.04909090909090918,
+								0.1677215189873418,
+								0.05272727272727279
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 317,
+						"height": 276,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\closetOp2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 329748,
+						"collisionPoly": {
+							"points": [
+								0.16631806336579333,
+								0,
+								0.6955835962145109,
+								0.0018115942028985507,
+								0.7523487861747367,
+								0.045395256916996043,
+								1,
+								0.04347826086956511,
+								0.9945652173913043,
+								0.9963636363636363,
+								0,
+								1,
+								0,
+								0.048913043478260886,
+								0.1678953504320394,
+								0.052536231884058045
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 962698247543989,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

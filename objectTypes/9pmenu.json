@@ -1,0 +1,26 @@
+{
+	"name": "9pMenu",
+	"plugin-id": "NinePatch",
+	"sid": 143305666937598,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "aekiro_gameobject",
+			"name": "GameObject",
+			"sid": 370430788436564
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 524,
+		"height": 384,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\finalBg.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4913259,
+		"useCollisionPoly": true
+	}
+}
