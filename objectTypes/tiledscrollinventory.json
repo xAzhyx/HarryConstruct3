@@ -1,26 +1,31 @@
 {
-	"name": "TiledBackText",
+	"name": "TiledScrollInventory",
 	"plugin-id": "TiledBg",
-	"sid": 336377806369808,
+	"sid": 558526484148518,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "aekiro_gameobject",
 			"name": "GameObject",
-			"sid": 380482836982054
+			"sid": 588925278071915
+		},
+		{
+			"behaviorId": "aekiro_scrollView",
+			"name": "ScrollView",
+			"sid": 224452729149427
 		}
 	],
 	"effectTypes": [],
 	"image": {
-		"width": 5,
-		"height": 5,
+		"width": 250,
+		"height": 250,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 6476021,
+		"imageSpriteId": 7294589,
 		"useCollisionPoly": true
 	}
 }

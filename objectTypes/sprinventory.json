@@ -1,0 +1,75 @@
+{
+	"name": "SprInventory",
+	"plugin-id": "Sprite",
+	"sid": 620721617262000,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "aekiro_gameobject",
+			"name": "GameObject",
+			"sid": 773294469565664
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1000,
+						"height": 700,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8475907,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "obj1",
+								"x": 0.14286000000000001,
+								"y": 0.10285714285714286
+							},
+							{
+								"name": "obj2",
+								"x": 0.28572000000000003,
+								"y": 0.10285714285714286
+							},
+							{
+								"name": "obj3",
+								"x": 0.42858,
+								"y": 0.10285714285714286
+							},
+							{
+								"name": "obj4",
+								"x": 0.5714400000000001,
+								"y": 0.10285714285714286
+							},
+							{
+								"name": "obj5",
+								"x": 0.7143,
+								"y": 0.10285714285714286
+							},
+							{
+								"name": "obj6",
+								"x": 0.85716,
+								"y": 0.10285714285714286
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 417583313246133,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

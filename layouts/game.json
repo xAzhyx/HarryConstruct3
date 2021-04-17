@@ -410,6 +410,90 @@
 			"global": false
 		},
 		{
+			"name": "UI",
+			"overriden": 1,
+			"instances": [],
+			"sid": 259338303924919,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "ScrollText",
+			"overriden": 1,
+			"instances": [],
+			"sid": 532731493196311,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "ScrollInventory",
+			"overriden": 1,
+			"instances": [],
+			"sid": 180265772932306,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
 			"name": "Drawer",
 			"overriden": 0,
 			"instances": [
@@ -561,7 +645,7 @@
 			],
 			"sid": 434119300783951,
 			"effectTypes": [],
-			"isInitiallyVisible": true,
+			"isInitiallyVisible": false,
 			"color": [
 				1,
 				1,
@@ -611,8 +695,8 @@
 						}
 					},
 					"world": {
-						"x": 658,
-						"y": 331,
+						"x": 628.8399266062158,
+						"y": 284,
 						"width": 640,
 						"height": 499,
 						"originX": 0.5,
@@ -646,8 +730,8 @@
 						}
 					},
 					"world": {
-						"x": 688,
-						"y": 333,
+						"x": 658.8399266062158,
+						"y": 286,
 						"width": 285,
 						"height": 476,
 						"originX": 0.0035087719298245615,
@@ -699,8 +783,8 @@
 						}
 					},
 					"world": {
-						"x": 717,
-						"y": 143,
+						"x": 687.8399266062158,
+						"y": 96,
 						"width": 229,
 						"height": 258,
 						"originX": 0,
@@ -784,8 +868,8 @@
 						}
 					},
 					"world": {
-						"x": 829,
-						"y": 436,
+						"x": 799.8399266062158,
+						"y": 389,
 						"width": 81,
 						"height": 203,
 						"originX": 0.5,
@@ -862,8 +946,8 @@
 						}
 					},
 					"world": {
-						"x": 924,
-						"y": 565,
+						"x": 894.8399266062158,
+						"y": 518,
 						"width": 68,
 						"height": 68,
 						"originX": 0.5,
@@ -940,8 +1024,8 @@
 						}
 					},
 					"world": {
-						"x": 925,
-						"y": 562,
+						"x": 895.8399266062158,
+						"y": 515,
 						"width": 54,
 						"height": 85,
 						"originX": 0.5,
@@ -976,8 +1060,8 @@
 						}
 					},
 					"world": {
-						"x": 951,
-						"y": 558,
+						"x": 921.8399266062158,
+						"y": 511,
 						"width": 50,
 						"height": 50,
 						"originX": 0.5,
@@ -1018,68 +1102,12 @@
 			"global": false
 		},
 		{
-			"name": "UI",
-			"overriden": 1,
-			"instances": [],
-			"sid": 259338303924919,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"global": false
-		},
-		{
-			"name": "Scroll",
-			"overriden": 1,
-			"instances": [],
-			"sid": 532731493196311,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"global": false
-		},
-		{
 			"name": "Popup",
 			"overriden": 1,
 			"instances": [],
 			"sid": 749492406378937,
 			"effectTypes": [],
-			"isInitiallyVisible": true,
+			"isInitiallyVisible": false,
 			"color": [
 				1,
 				1,
@@ -1115,5 +1143,5 @@
 	"width": 1280,
 	"height": 720,
 	"unboundedScrolling": false,
-	"eventSheet": "evsTuto"
+	"eventSheet": "evsGame"
 }

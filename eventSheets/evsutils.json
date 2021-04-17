@@ -7,17 +7,26 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 152960424496451
+					"sid": 139699161015626
 				}
 			],
 			"actions": [
 				{
 					"id": "init",
 					"objectClass": "ProUI",
-					"sid": 205213135630463
+					"sid": 521034550568501
 				}
 			],
-			"sid": 834535759464311
+			"sid": 251193638096901
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Utils",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 901886716110782
 		}
 	],
 	"sid": 517092237508041

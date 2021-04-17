@@ -3,11 +3,33 @@
 	"events": [
 		{
 			"eventType": "include",
+			"includeSheet": "evsUtils"
+		},
+		{
+			"eventType": "include",
 			"includeSheet": "evsTuto"
 		},
 		{
 			"eventType": "include",
-			"includeSheet": "evsUtils"
+			"includeSheet": "evsUI"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 908597271066000
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "Init_Tutorial",
+					"sid": 126767425348920,
+					"disabled": true
+				}
+			],
+			"sid": 741796376585405
 		}
 	],
 	"sid": 490305689253652

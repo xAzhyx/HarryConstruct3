@@ -1,0 +1,21 @@
+{
+	"name": "evsBag",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 105073452586318,
+					"parameters": {
+						"object": "SprBag"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 247404179705433
+		}
+	],
+	"sid": 819922262134711
+}

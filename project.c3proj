@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 22500,
+	"savedWithRelease": 23404,
 	"name": "C3 Harry",
 	"runtime": "c3",
 	"useWorker": "dom",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "NinePatch",
 			"name": "9-patch",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "AJAX",
 			"name": "AJAX",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Json",
 			"name": "JSON",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Touch",
 			"name": "Touch",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "aekiro_proui",
 			"name": "ProUI",
 			"author": "Aekiro",
-			"version": "1.772",
+			"version": "1.801",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "Browser",
 			"name": "Browser",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "PlatformInfo",
 			"name": "Platform info",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "DragnDrop",
 			"name": "Drag & Drop",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "aekiro_button",
 			"name": "Button",
 			"author": "Aekiro",
-			"version": "1.772",
+			"version": "1.801",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "aekiro_gameobject",
 			"name": "Game Object",
 			"author": "Aekiro",
-			"version": "1.772",
+			"version": "1.801",
 			"bundled": false
 		},
 		{
@@ -123,7 +123,7 @@
 			"id": "aekiro_scrollView",
 			"name": "Scroll View",
 			"author": "Aekiro",
-			"version": "1.772",
+			"version": "1.801",
 			"bundled": false
 		},
 		{
@@ -131,7 +131,7 @@
 			"id": "Fade",
 			"name": "Fade",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -139,7 +139,7 @@
 			"id": "Tween",
 			"name": "Tween",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -147,7 +147,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r225",
+			"version": "r234.4",
 			"bundled": false
 		}
 	],
@@ -186,9 +186,9 @@
 				"items": [
 					"SprBag",
 					"9pText",
-					"TiledScroll",
+					"TiledScrollText",
 					"TiledBackText",
-					"TxText"
+					"TxtText"
 				],
 				"subfolders": [
 					{
@@ -200,6 +200,17 @@
 						],
 						"subfolders": [],
 						"name": "Popup"
+					},
+					{
+						"items": [
+							"9pInventory",
+							"TiledScrollInventory",
+							"TiledBackInventory",
+							"SprInventory",
+							"sprInventoryObj"
+						],
+						"subfolders": [],
+						"name": "Inventory"
 					}
 				],
 				"name": "UI"
@@ -258,13 +269,23 @@
 			"evsGame",
 			"evsTuto",
 			"evsUtils",
-			"evsUI"
+			"evsUI",
+			"evsBag"
 		],
 		"subfolders": []
 	},
 	"rootFileFolders": {
 		"script": {
-			"items": [],
+			"items": [
+				{
+					"name": "main.js",
+					"type": "application/javascript",
+					"sid": 117871664989104,
+					"script-info": {
+						"purpose": "main"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"sound": {
@@ -399,6 +420,7 @@
 		"orientations": "landscape",
 		"enableWebGL": true,
 		"gpuPreference": "high-performance",
+		"scriptsType": "classic",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
 		"sampling": "trilinear",

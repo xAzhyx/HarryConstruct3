@@ -1,0 +1,63 @@
+{
+	"name": "sprInventoryObj",
+	"plugin-id": "Sprite",
+	"sid": 375385669912557,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "aekiro_gameobject",
+			"name": "GameObject",
+			"sid": 476192179602630
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 153,
+						"height": 141,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\PROJECTS\\[ASSETS & DOCS]\\Harry C3\\Assets(LAST)\\bag.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7810347,
+						"collisionPoly": {
+							"points": [
+								0.34640522875817026,
+								0.021276595744680812,
+								0.9248366013071896,
+								0.028368794326241155,
+								0.9869281045751634,
+								0.134751773049645,
+								0.9934640522875813,
+								0.7092198581560286,
+								0.9281045751633982,
+								0.8226950354609932,
+								0.6928104575163397,
+								1,
+								0.009803921568627447,
+								0.9929078014184396,
+								0.0032679738562091565,
+								0.26950354609929045
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 274561236991377,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

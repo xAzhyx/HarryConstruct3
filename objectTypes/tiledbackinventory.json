@@ -1,14 +1,14 @@
 {
-	"name": "TiledBackText",
+	"name": "TiledBackInventory",
 	"plugin-id": "TiledBg",
-	"sid": 336377806369808,
+	"sid": 655093616641154,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "aekiro_gameobject",
 			"name": "GameObject",
-			"sid": 380482836982054
+			"sid": 759657061540691
 		}
 	],
 	"effectTypes": [],
@@ -20,7 +20,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 6476021,
+		"imageSpriteId": 8704277,
 		"useCollisionPoly": true
 	}
 }

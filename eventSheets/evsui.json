@@ -1,5 +1,77 @@
 {
 	"name": "evsUI",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 293376305449560
+				}
+			],
+			"actions": [],
+			"sid": 373518044764729,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for",
+							"objectClass": "System",
+							"sid": 725125780915414,
+							"parameters": {
+								"name": "\"\"",
+								"start-index": "1",
+								"end-index": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 396180601824927,
+							"parameters": {
+								"object-to-create": "sprInventoryObj",
+								"layer": "\"ScrollInventory\"",
+								"x": "SprInventory.ImagePointX(\"obj\"&loopindex)",
+								"y": "SprInventory.ImagePointY(\"obj\"&loopindex)",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "log",
+							"objectClass": "Browser",
+							"sid": 140818345467780,
+							"parameters": {
+								"type": "warn",
+								"message": "\"obj\"&loopindex"
+							}
+						},
+						{
+							"id": "set-name",
+							"objectClass": "sprInventoryObj",
+							"sid": 591635386230572,
+							"behaviorType": "GameObject",
+							"parameters": {
+								"name": "\"bag\"&loopindex"
+							}
+						},
+						{
+							"id": "addchildbyname10",
+							"objectClass": "SprInventory",
+							"sid": 476607544455020,
+							"behaviorType": "GameObject",
+							"parameters": {
+								"name0": "\"bag\"&loopindex"
+							}
+						}
+					],
+					"sid": 476152025793568
+				}
+			]
+		}
+	],
 	"sid": 500466767968505
 }
